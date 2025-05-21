@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <script type = "text/javascript">
+        let regex001 = /r/ig;
+        let string = "Sri Lanka is a beautiful island nation located in South Asia. It is known for its rich cultural heritage, stunning beaches, and diverse wildlife. The country has a long history and is home to ancient cities, temples, and scenic landscapes. Tourism, agriculture, and tea production are important parts of the Sri Lankan economy. People in Sri Lanka are friendly and welcoming, making it a popular destination for travelers from around the world.";
+        let result = string.match(regex001);
+        alert(result);
+        console.log(string.match(regex001).length); 
+
+    </script>
+    //* The above code uses a regular expression to find all occurrences of the letter "r" in the given string. It is case-insensitive due to the 'i' flag. The result is displayed in an alert box and logged to the console, showing the total count of matches found. */
+</body>
+</html>
